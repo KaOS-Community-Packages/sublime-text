@@ -2,7 +2,7 @@
 # Contributor: realitygaps <realitygaps at yahoo dot com>
 
 pkgname=sublime-text-dev
-pkgver=3.3059
+pkgver=3.3065
 pkgrel=1
 pkgdesc="Sophisticated text editor for code, html and prose - dev build"
 arch=('x86_64')
@@ -19,7 +19,7 @@ source=(
   "http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_${pkgver:2}_${_archurl}.tar.bz2"
   "sublime_text_3.desktop"
 )
-md5sums=('9fd1828ef4bc71f375b872eb139e9eba'
+md5sums=('466ae754d2cd6aa80dd8dd8b571b4cac'
          '89594b9c6b9a8c7e6a8ce414a0e58243')
 
 
