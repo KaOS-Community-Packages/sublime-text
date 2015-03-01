@@ -1,6 +1,3 @@
-# Maintainer: Sander Boom <sander at inflowmotion dot nl>
-# Contributor: realitygaps <realitygaps at yahoo dot com>
-
 pkgname=sublime-text-dev
 pkgver=3.3065
 pkgrel=1
