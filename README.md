@@ -1,4 +1,4 @@
-sublime-text3
+sublime-text-dev
 =============
 
 Sublime Text is a sophisticated text editor for code, markup and prose.
