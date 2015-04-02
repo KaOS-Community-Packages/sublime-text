@@ -6,8 +6,6 @@ arch=('x86_64')
 url="http://www.sublimetext.com/3"
 license=('custom')
 depends=(libpng gtk2)
-conflicts=(sublime-text-nightly)
-provides=(sublime-text-nightly)
 install=${pkgname}.install
 
 _archurl='x64'
