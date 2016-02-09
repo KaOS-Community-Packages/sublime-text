@@ -1,5 +1,5 @@
 pkgname=sublime-text-dev
-pkgver=3.3083
+pkgver=3.3103
 pkgrel=1
 pkgdesc="Sophisticated text editor for code, html and prose - dev build"
 arch=('x86_64')
@@ -8,13 +8,11 @@ license=('custom')
 depends=(libpng gtk2)
 install=${pkgname}.install
 
-_archurl='x64'
-
 source=(
-  "http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_${pkgver:2}_${_archurl}.tar.bz2"
+  "https://download.sublimetext.com/sublime_text_3_build_${pkgver:2}_x64.tar.bz2"
   "sublime_text_3.desktop"
 )
-md5sums=('5da998bea29f9ca02a60d2b3cfc46fea'
+md5sums=('f047eda20cf9f8ac8760e448be12b33e'
          '89594b9c6b9a8c7e6a8ce414a0e58243')
 
 package() {
