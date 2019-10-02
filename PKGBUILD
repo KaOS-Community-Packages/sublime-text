@@ -1,6 +1,6 @@
 pkgname=sublime-text-dev
-pkgver=3.3207
-pkgrel=2
+pkgver=3.3211
+pkgrel=1
 pkgdesc="Sophisticated text editor for code, html and prose - dev build"
 arch=('x86_64')
 url="http://www.sublimetext.com/3"
@@ -12,8 +12,8 @@ source=(
   "https://download.sublimetext.com/sublime_text_3_build_${pkgver:2}_x64.tar.bz2"
   "sublime_text_3.desktop"
 )
-md5sums=('187d5f46fdf8b628fbc4686984591529'
-         '89594b9c6b9a8c7e6a8ce414a0e58243')
+md5sums=('9438d5ef592df91ba41e5488e690b7e5'
+         'b1414d4621a4db9068f8d0716687121c')
 
 package() {
   cd "${srcdir}"
