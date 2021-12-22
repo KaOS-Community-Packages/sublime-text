@@ -1,5 +1,5 @@
 pkgname=sublime-text
-pkgver=4.4113
+pkgver=4.4126
 pkgrel=1
 pkgdesc="Sophisticated text editor for code, html and prose - dev build"
 arch=('x86_64')
@@ -13,7 +13,7 @@ replaces=('sublime-text-dev')
 source=(
   "https://download.sublimetext.com/sublime_text_build_${pkgver:2}_x64.tar.xz"
 )
-md5sums=('984f05273a97ad7fc9a9b7f8d7044dda')
+md5sums=('65822807462bd930b997743180636d6f')
 
 package() {
   cd "${srcdir}"
